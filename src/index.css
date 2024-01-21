@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Electrolize", sans-serif;
+}
+
+:root {
+  --primary-background-color: #ffffff;
+  --circle-color: #3ef7cc;
+  --cross-color: #f7c228;
+  --text-color: #000000;
+  --turn-highlight-color: orangered;
+  --border-color: #002b594c;
+  --btn-color: #008080;
+}
+body {
+  overflow-x: hidden;
+  color: var(--text-color);
+  background-color: var(--primary-background-color);
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: transparent;
+}
+
+.main_container {
+  height: 100%;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./Images/bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
